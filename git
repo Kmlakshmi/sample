@@ -1,13 +1,13 @@
 git –version //This command to check the version 
- mkdir foldername eg: mkdir demo 
+ mkdir foldername eg: mkdir demo //new repo
  cd demo  
- git init 
+ git init // initialize new repo
  git status
   vi laksh. txt
  git add laksh.txt 
- git commit -m “done laksh”
+ git commit -m “done laksh”// commit staged changed
   git config
- git config user.name “ ”  
+ git config user.name “ ”  // update the global user name 
  git config user.email “ ” 
  
 2
@@ -24,19 +24,19 @@ git status
 vi sample.txt 
 git add sample.txt 
 git checkout laksh
-git stash 
-git stash list 
-git stash apply
+git stash // used to temporary change in working directory and staged area 
+git stash list // display the list of stashes
+git stash apply // retrieve or re apply
 git stash pop
 
 4
-git clone <repository-url>
+git clone <repository-url> // copy of an existing git repo
 
 5
 git branch feature-branch
 git add laksh. txt
 git commit -m "done rebase"
-git fetch origin
+git fetch origin // update local repo
 git checkout feature-branch
 git rebase master feature-branch
 git status
@@ -48,8 +48,8 @@ git commit –m “custom commit message laksh”
 
 7
 git checkout master 
-git tag v1.0 
-got tag
+git tag v1.0 // create light weight tag in git repo
+got tag // command without any argument
 git tag –a v1.1 -m “tag for release” 
 git tag 
 git show v1.0 
@@ -65,8 +65,8 @@ vi gamma.txt
 git add . 
  git commit –m “3st commit” 
 git status 
-git reflog
-git log
+git reflog // view the history of operation
+git log // display commit history
 
 9
 git log
@@ -76,8 +76,8 @@ git show
 git log --author="shamsiya parveen " --after="2023-01-01" --before="2023-12-31" 
 
 11
-git log -n 5
+git log -n 5 // display the last 5commit 
 
 12
-Git revert “abc123” 
-Git log –oneline 
+Git revert “abc123” // used to create a new commit
+Git log –oneline // display a candensed version of the committ history
