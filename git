@@ -7,8 +7,8 @@ git –version //This command to check the version
  git add laksh.txt 
  git commit -m “done laksh”// commit staged changed
   git config
- git config user.name “ ”  // update the global user name 
- git config user.email “ ” 
+ git config --global user.name “ ”  // update the global user name 
+ git config --global user.email “ ” 
  
 2
 git branch laksh
