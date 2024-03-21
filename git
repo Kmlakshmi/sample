@@ -65,7 +65,10 @@ vi gamma.txt
 git add . 
  git commit –m “3st commit” 
 git status 
+git commit -m "all delete"
 git reflog // view the history of operation
+git cherry-pick
+git cherry- pick --skip
 git log // display commit history
 
 9
